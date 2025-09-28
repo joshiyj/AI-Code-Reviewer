@@ -19,7 +19,7 @@ const App = () => {
   async function reviewCode() {
   setLoading(true);   // start loading
   try {
-    const response = await axios.post('http://localhost:3000/ai/get-review', { code });
+    const response = await axios.post('https://ai-code-reviewer-backend-cfbn.onrender.com/ai/get-review', { code });
     setreview(response.data);
   } catch (error) {
     console.error(error);
