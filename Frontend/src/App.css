@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body, #root{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left, main .right{
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+}
+
+main .left{
+  background-color: rgb(12, 0, 44);
+  position: relative;
+}
+
+main .left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color:maroon;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+  color:burlywood;
+  cursor: pointer;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .left .code,
+.code pre,
+.code pre code
+{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: rgb(12, 0, 44);
+  font-weight: bold;
+}
+
+main .right {
+  background-color: rgb(61, 61, 61);
+  padding: 1.8rem;
+  border-radius: 0.7rem;
+
+  /* ✅ Make content stay inside */
+  overflow-y: auto;
+
+  /* ✅ Ensure it takes full height */
+  height: 100%;
+
+  /* ✅ For better readability */
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+
+  /* Optional: add scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: #888 #2c2c2c;
+}
+
+main .right h1,
+main .right h2,
+main .right h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #ffd369; /* highlight headings */
+}
+
+main .right pre {
+  background: #1e1e1e;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+}
+
+/* Remove unwanted white border from react-simple-code-editor */
+main .left 
+.code textarea {
+  border: none;
+  outline: none;
+  margin: 0;
+}

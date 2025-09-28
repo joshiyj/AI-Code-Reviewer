@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+build/
+dist/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel
