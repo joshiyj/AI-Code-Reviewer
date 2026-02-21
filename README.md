@@ -1,6 +1,6 @@
-# CodeLens — AI Code Reviewer v2.0
+# CodeLens — AI Code Reviewer
 
-> Professional AI-powered code review platform built with React, Node.js, and Google Gemini 2.0
+> Professional AI-powered code review platform built with React, Node.js, and Google Gemini 2.5 flash 
 
 ## Features
 
@@ -128,6 +128,6 @@ Frontend/
 |-----------|---------------------------------------|
 | Frontend  | React 18, Vite, PrismJS               |
 | Backend   | Node.js, Express                      |
-| AI        | Google Gemini 2.0 Flash (Streaming)   |
+| AI        | Google Gemini 2.5 Flash (Streaming)   |
 | Styling   | Pure CSS, CSS Variables, Animations   |
 | Fonts     | Syne (display), JetBrains Mono (code) |
