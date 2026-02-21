@@ -2,6 +2,14 @@
 
 > Professional AI-powered code review platform built with React, Node.js, and Google Gemini 2.5 flash 
 
+## 🌐 Live Demo
+
+Experience the application live here:
+
+👉 https://ai-code-reviewer-frontend-beia.onrender.com/
+
+⚠️ First request may take ~30 seconds due to cold start on Render free tier.
+
 ## Features
 
 - **Streaming AI Responses** — Real-time response streaming via SSE; no more staring at a blank screen
@@ -10,6 +18,9 @@
 - **Structured Review Report** — Score gauge, severity-tagged issues, best practices, and fixed code
 - **Quality Metrics** — Visual bars for complexity, security, performance, and maintainability
 - **12 Languages Supported** — JS, TS, JSX, Python, Java, C, C++, C#, Go, Rust, and more
+
+---
+<img width="1916" height="877" alt="image" src="https://github.com/user-attachments/assets/25ab9215-b123-4c8d-8a3c-1314e1bbedfa" />
 
 ---
 
